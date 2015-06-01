@@ -1,0 +1,1 @@
+{"http:\/\/localhost:8888\/thanhnga\/wp-content\/uploads\/2015\/02\/demo_image":"http:\/\/localhost:8888\/thanhnga\/wp-content\/uploads\/2015\/02\/demo_image"}

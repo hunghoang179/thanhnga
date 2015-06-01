@@ -1,0 +1,26 @@
+﻿vào file wp-config.php sửa tên data, user, password
+
+define('DB_NAME', 'thanhnga');
+
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', '');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', 'localhost');
+
+vào phpmyadmin tạo tên 1 data mới ==>> import file thanhnga.sql trong thư mục
+sao khi import thành công, mở bảng wp_options sửa 2 trường (siteurl và home hiện tại đang có url là: http://localhost:8888/thanhnga) thành url của bạn
+sau khi xong gõ url: http://yoururl/thanhnga/wp-admin
+user: admin
+password: admin@#123
+
+tới menu Cài đặt >> tổng quan rồi bấm Lưu thay đổi để thay đổi cấu hình file .htaccess
